@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: cortimaxxx
+    env: static
+    staticPublishPath: .
+    buildCommand: echo build
